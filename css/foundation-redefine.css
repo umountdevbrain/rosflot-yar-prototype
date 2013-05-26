@@ -5,3 +5,7 @@
 nav {
   font-family: 'Roboto', Arial, sans-serif;
 }
+
+.side-nav {
+  padding: 0;
+}

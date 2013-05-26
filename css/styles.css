@@ -4,13 +4,13 @@
 
 header .site-name {
   font-weight: 300;
-  font-size: 1.5em;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 2em;
+  font-family: 'Open Sans Condensed', 'Roboto', Arial, sans-serif;
   text-align: center;
-  margin-top: 200px;
+  position: absolute;
+  bottom: 10px;
   width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+  margin: 0;
 }
 
 header .left-image {
@@ -82,12 +82,40 @@ header .collage {
   text-align: center;
 }
 
-.secondary-menu li {
+/*.secondary-menu li {
   float: none;
   display: inline;
   list-style-type: none;
-}
+}*/
 
 .secondary-menu .button {
   margin: 0;
+  border-style: none;
+}
+
+.secondary-menu .divider {
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 0.3375em;
+  padding-right: 0.3375em;
+}
+
+.site-search,
+.site-search:focus {
+  background-repeat: no-repeat !important;
+  background-image: url("../img/bg-search-filed.png") !important;
+  background-position: 5px center !important;
+  padding-left: 25px !important;
+}
+
+.side-nav {
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.sidebar-header {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.1em;
+  /*margin: 0;*/
 }
