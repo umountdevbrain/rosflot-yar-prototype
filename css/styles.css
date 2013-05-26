@@ -1,0 +1,72 @@
+.all-conatiner {
+  margin: 15px 15px;
+}
+
+header .site-name {
+  font-weight: 300;
+  font-size: 1.5em;
+  font-family: 'Roboto', Arial, sans-serif;
+  position: absolute;
+  bottom: 3px;
+  right: 15px;
+}
+
+header .left-image {
+  text-indent: -10000px;
+}
+
+header .right-image p {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: absolute;
+  bottom: 3px;
+  right: 15px;
+}
+
+header .left-image,
+header .right-image,
+header .collage {
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+header .collage {
+  background-position: center center;
+}
+
+header .right-image {
+  background-position: center right;
+}
+
+header .left-image {
+  background-position: center left;
+}
+
+header .left-image {
+  background-image: url("http://placehold.it/250x250&text=Petr+I");
+}
+
+header .right-image {
+  background-image: url("http://placehold.it/250x250&text=F.F.+Ushakov");
+}
+
+header .collage {
+  background-image: url("http://placehold.it/500x250&text=collage");
+}
+
+.main-menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.secondary-menu {
+  width: 100%;
+  background-color: #e9e9e9;
+}
+
+.secondary-menu ul {
+  margin: 0 auto;
+}
+
+.secondary-menu .button {
+  margin: 0;
+}
