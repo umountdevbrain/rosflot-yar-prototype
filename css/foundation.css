@@ -240,7 +240,7 @@ select {
     margin-right: auto;
     float: none !important; } }
 /* Styles for screens that are atleast 768px; */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .large-1 {
     position: relative;
     width: 8.33333%; }
@@ -571,7 +571,7 @@ th.hide-for-xlarge {
   display: table-cell !important; }
 
 /* Medium Displays: 768px - 1279px */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .show-for-medium,
   .show-for-medium-up {
     display: inherit !important; }
@@ -918,7 +918,7 @@ th.hide-for-touch {
     .small-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
 /* Foundation Block Grids for above small breakpoint */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   /* Remove small grid clearing */
   .small-block-grid-1 > li:nth-of-type(1n+1) {
     clear: none; }
@@ -1264,7 +1264,7 @@ blockquote p {
   border: none;
   padding: 0 0.0625em; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 
@@ -1513,7 +1513,7 @@ button, .button {
     button.round, .button.round {
       -webkit-border-radius: 1000px;
       border-radius: 1000px; } }
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   button, .button {
     display: inline-block; } }
 /* Standard Forms */
@@ -2349,7 +2349,7 @@ form.custom {
     .section-container.tabs > section.active > .content, .section-container.tabs > .section.active > .content {
       position: relative; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .section-container.auto {
     border: 0;
     position: relative; }
@@ -3032,7 +3032,7 @@ form.custom {
 .touch .orbit-bullets {
   display: none; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .touch .orbit-container .orbit-prev,
   .touch .orbit-container .orbit-next {
     display: inherit; }
@@ -3082,7 +3082,7 @@ form.custom {
     font-weight: bold;
     cursor: pointer; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .reveal-modal {
     padding: 1.875em;
     top: 6.25em; }
@@ -3232,7 +3232,7 @@ form.custom {
   left: 0px; }
 
 /* Styles for screens that are atleast 768px; */
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .joyride-tip-guide {
     width: 300px;
     left: inherit; }
@@ -3329,7 +3329,7 @@ form.custom {
   .clearing-assembled .clearing-container .carousel > ul {
     display: none; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .clearing-main-prev,
   .clearing-main-next {
     position: absolute;
@@ -4046,7 +4046,7 @@ a.th {
   color: #888888;
   font-weight: normal; }
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 51em) {
   .tooltip > .nub {
     border-color: transparent transparent black transparent;
     top: -10px; }
