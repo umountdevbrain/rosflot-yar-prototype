@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/foundation.css" type="text/css" />
   <link rel="stylesheet" href="css/foundation-redefine.css" type="text/css" />
   <link rel="stylesheet" href="css/styles.css" type="text/css" />
+  <!--[if lte IE 8]><!-->  <link rel="stylesheet" href="css/lteie8.css" type="text/css" /> <!--<![endif]-->
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,100italic,300italic,400italic,500italic,700,700italic,900,900italic&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css' />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css' />
   <script src="js/vendor/custom.modernizr.js"></script>
@@ -19,9 +20,14 @@
   <div class="all-container">
     <header>
       <div class="row">
-        <div class="large-3 columns hide-for-small left-image">Петр I</div>
-        <div class="large-6 columns collage"><h1 class="site-name">Ярославское Региональное Отделение&nbsp;ДПФ</h1></div>
-        <div class="large-3 columns hide-for-small right-image"><p>12.12.1234</p></div>
+        <div class="large-12 columns collage">
+          <div class="site-name-container absolute-centered-conatiner">
+            <div class="site-name absolute-centered">
+                <a href="index.html">Ярославское Региональное Отделение&nbsp;ДПФ</a>
+            </div>
+          </div>
+          <!-- <h1 class="site-name"><a href="index.html">Ярославское Региональное Отделение&nbsp;ДПФ</a></h1> -->
+        </div>
       </div>
     </header>
   </div>
@@ -159,21 +165,6 @@
       </div>
 
       <div class="large-8 columns">
-        <div class="secondary-menu">
-          <ul class="button-group">
-            <li><a class="button secondary" href="#">Новости</a></li>
-            <li><a class="button secondary" href="#">СМИ</a></li>
-            <li><a class="button secondary" href="#">Видео</a></li>
-            <li><a class="button secondary" href="#">Фото</a></li>
-            <li><a class="button secondary" href="#">Вести</a></li>
-          </ul>
-          <ul class="button-group">
-            <li><a class="button secondary" href="#">2013</a></li>
-            <li><a class="button secondary" href="#">2012</a></li>
-            <li><a class="button secondary" href="#">2011</a></li>
-            <li><a class="button secondary" href="#">1991&mdash;2010</a></li>
-          </ul>
-        </div>
         <div class="news">
           <p class="header"><a href="#">Надо срочно восстановить полноценность ВМФ России</a> <span class="date">| 27.12.2012</span></p>
           <p class="content">25 декабря с.г. Председатель Общероссийского Движения Поддержки Флота Михаил Ненашев направил по этой острейшей проблеме обращение к Президенту России В.В. Путину.</p>
@@ -208,7 +199,14 @@
   <footer>
     <div class="row">
       <div class="large-12 columns">
-        <p class="footer-info">&copy;&nbsp;Ярославское Региональное Отделение Движения Поддержки Флота<br />2013</p>
+        <p class="footer-info">&copy;&nbsp;Ярославское Региональное Отделение Движения Поддержки Флота, 2013</p>
+      </div>
+      <div class="large-12 columns">
+        <div class="absolute-centered-conatiner">
+          <div class="footer-alert absolute-centered">
+              Все права защищены. Полное или частичное копирование материалов запрещено. Авторские права на&nbsp;проекты принадлежат их&nbsp;разработчикам. Полное или частичное использование материалов без приобретения соответствующих прав запрещено.
+          </div>
+        </div>
       </div>
     </div>
   </footer>
