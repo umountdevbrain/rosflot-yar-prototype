@@ -12,6 +12,10 @@
   left: -50%;
 }
 
+a {
+  color: #294782;
+}
+
 header {
   background: #193772;
   background: -moz-linear-gradient(top,  #193772 0%, #294782 100%);
@@ -68,6 +72,12 @@ header .collage {
   margin-bottom: 10px;
 }
 
+.main-menu .top-bar li a {
+  /*font-size: 1em;*/
+  font-weight: 300;
+  font-family: Roboto', Arial, sans-serif !important;
+}
+
 .site-search,
 .site-search:focus {
   background-repeat: no-repeat !important;
@@ -85,6 +95,10 @@ header .collage {
 .side-nav.duplicated-menu {
   font-weight: 700;
   font-size: 1em;
+}
+
+.side-nav li a {
+  color: #294782;
 }
 
 .sidebar-header {
