@@ -39,7 +39,18 @@ header .site-name {
   padding: 10px 20px;
   background-color: rgba(25,55,114,0.85);
   color: #fff;
-  text-align: center;
+}
+
+header .site-name p {
+  text-align: left;
+  line-height: inherit;
+  margin-bottom: 0;
+  font-weight: inherit;
+}
+
+header .site-name p.slogan {
+  font-size: 0.45em;
+  font-style: italic;
 }
 
 header .collage {
@@ -53,10 +64,6 @@ header .collage {
 header .collage a {
   text-decoration: none;
   color: #fff;
-}
-
-header .left-image {
-  background-position: 10px top;
 }
 
 header .collage {
