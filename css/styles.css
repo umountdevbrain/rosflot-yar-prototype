@@ -239,4 +239,5 @@ ul.media-thumbs {
 
 ul.media-thumbs li {
   display: inline-block;
+  margin-bottom: 5px;
 }
