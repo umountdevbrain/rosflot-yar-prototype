@@ -119,6 +119,13 @@ section.content {
   /*margin: 0;*/
 }
 
+footer {
+  background-image: url("../img/bg-dpf-footer.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 45px;
+}
+
 .footer-info {
   text-align: center;
   color: #a9a9a9;
