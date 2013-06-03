@@ -1,0 +1,14 @@
+/* humanstxt.org */
+
+/* TEAM */
+  project director: Andrey Zvorygin
+  e-mail: umount.dev.brain@ya.ru
+  twitter: umount_devbrain
+  vk: http://vk.com/umount.dev.brain
+  location: Yaroslavl, Russia
+
+/* SITE */                          
+  Last update: 2013/05/26 
+  Standards: HTML5, CSS3
+  Components: jQuery, Zurb Foundation, Modernizr
+  Software: Sublime Text 2, Git
