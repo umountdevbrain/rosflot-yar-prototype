@@ -120,6 +120,10 @@ section.content {
 }
 
 footer {
+<<<<<<< HEAD
+=======
+  background-image: url("../img/bg-dpf-footer.png");
+>>>>>>> 39f5ad2108b0cab2f2d34083b33a572cd225b32f
   background-repeat: no-repeat;
   background-position: center top;
   padding-top: 45px;
@@ -148,6 +152,7 @@ footer {
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .banking-details {
   border: 1px solid #d9d9d9;
   background-color: #e9e9e9;
@@ -174,6 +179,8 @@ footer {
   top: 5px;
 }
 
+=======
+>>>>>>> 39f5ad2108b0cab2f2d34083b33a572cd225b32f
 /* Блок новости */
 .news {
   margin-top: 20px;
