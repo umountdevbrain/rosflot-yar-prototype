@@ -172,6 +172,12 @@ footer {
   font-weight: 700;
 }
 
+#banking-details-zoom {
+  position: absolute;
+  right: 26px;
+  top: 5px;
+}
+
 .banking-details .print-version {
   position: absolute;
   right: 5px;
