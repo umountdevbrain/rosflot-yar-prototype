@@ -148,10 +148,13 @@ footer {
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 #banking-details.large {
   font-size: 1em !important;
 }
 
+=======
+>>>>>>> 5b76e8a8da0a716790e070a9eda4507366d50025
 .banking-details {
   border: 1px solid #d9d9d9;
   background-color: #e9e9e9;
@@ -172,12 +175,15 @@ footer {
   font-weight: 700;
 }
 
+<<<<<<< HEAD
 #banking-details-zoom {
   position: absolute;
   right: 26px;
   top: 5px;
 }
 
+=======
+>>>>>>> 5b76e8a8da0a716790e070a9eda4507366d50025
 .banking-details .print-version {
   position: absolute;
   right: 5px;
