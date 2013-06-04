@@ -351,6 +351,7 @@
     </div>
     <div class="row">
       <div id="banking-details" class="large-6 columns large-centered banking-details">
+        <a href="#banking-details" id="banking-details-zoom" class="print-version" title="Увеличить"><img src="img/bg-search-filed.png" alt="" /></a>
         <a href="#" class="print-version" title="Распечатать"><img src="img/icon-print.png" alt="" /></a>
         <p class="header">Наши реквизиты</p>
         <p>Ярославское региональное отделение Общероссийского общественного движения поддержки флота</p>
@@ -371,6 +372,13 @@
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
-  <script>$(document).foundation();</script>
+  <script>
+    $(document).foundation();
+    $(document).ready(function() {
+      $("#banking-details-zoom").click(function() {
+        $("#banking-details").toggleClass("large");
+      });
+    });
+  </script>
 </body>
 </html>
