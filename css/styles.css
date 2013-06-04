@@ -34,7 +34,7 @@ header .site-name-container {
 
 header .site-name {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.4em;
   font-family: 'Open Sans Condensed', 'Roboto', Arial, sans-serif;
   padding: 10px 20px;
   background-color: rgba(25,55,114,0.85);
@@ -56,7 +56,7 @@ header .site-name p.slogan {
 header .collage {
   background-position: center center;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 200px;
   padding-left: 0;
   padding-right: 0;
 }
